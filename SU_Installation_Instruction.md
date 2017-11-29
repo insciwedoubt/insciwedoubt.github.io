@@ -96,10 +96,7 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 
 * **未找到命令**  
 	可能是环境变量设置问题，设置的环境变量中搜索不到命令。  
-	设置环境变量时注意符号，可以用echo命令查看当前环境变量路径进行确认。  
-
-* **修改/home/user/su/Makefile.config**  
-	最新版本中无此类问题。出现问题可查看参考教程链接。 
+	设置环境变量时注意符号，可以用echo命令查看当前环境变量路径进行确认。   
 
 * **文件夹权限不够**  
 	提高文件夹权限，777是最高权限。不过过高权限会有一定风险。  
@@ -107,6 +104,9 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 ```Bash
 	$ sudo chmod 777 /home/user/su
 ```
+
+* **修改/home/user/su/Makefile.config**  
+	最新版本中无此类问题。出现问题可查看参考教程链接。  
 
 ### 7. 参考教程
 
