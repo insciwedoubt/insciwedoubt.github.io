@@ -10,12 +10,12 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 在安装包里有安装的教程。依照提示操作就可以安装。
 
 * 解压到指定文件夹  
-常用命令：  
-	###### 移动压缩包到指定文件夹：
+###### 移动压缩包到指定文件夹：  
 ```Bash
 		$ mv {原目录}/{压缩包名} {新目录}
 ```
-	###### 解压缩：  
+
+###### 解压缩： 
 ```Bash
 		$ tar -xvzf {压缩包名}
 		$ tar -xvzf {压缩包名} -C {目标地址}
@@ -57,8 +57,7 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 	$ sudo apt install libxi-dev
 	$ sudo apt install gfortran
 ```
-* 使用替代libglut3的软件包  
-在Ubuntu 10.04版本以后，找不到软件包libglut3，使用freeglut3作为替代。  
+* 使用替代libglut3的软件包。在Ubuntu 10.04版本以后，找不到软件包libglut3，使用freeglut3作为替代。    
 ```Bash
 	$ sudo apt-get install freeglut3-dev
 ```
