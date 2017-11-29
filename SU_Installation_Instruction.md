@@ -1,7 +1,7 @@
 SU安装教程
 ====
 
-#### 1.下载安装包与准备安装
+### 1.下载安装包与准备安装
 
 * 官网下载安装包  
 CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
@@ -11,11 +11,11 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 
 * 解压到指定文件夹  
 常用命令：  
-	# 移动压缩包到指定文件夹：  
+	###### 移动压缩包到指定文件夹：
 ```Bash
 		$ mv {原目录}/{压缩包名} {新目录}
 ```
-	# 解压缩：  
+	###### 解压缩：  
 ```Bash
 		$ tar -xvzf {压缩包名}
 		$ tar -xvzf {压缩包名} -C {目标地址}
@@ -23,7 +23,7 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 
 * **解压完成后得到src文件夹，以下安装到目录`/home/user/su`下**
 
-#### 2.设置环境变量
+### 2.设置环境变量
 
 * 用户目录`/home/user`，用vim打开.bashrc文件：  
 ```Bash
@@ -46,7 +46,7 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 	$ echo $PATH
 ```
 
-#### 3.配置安装SU前置软件包
+### 3.配置安装SU前置软件包
 
 * 用户目录`/home/user`打开终端，输入命令：  
 ```Bash
@@ -67,7 +67,7 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 1. <https://askubuntu.com/questions/332375/unable-to-locate-package-libglut3-dev>
 2. <http://blog.csdn.net/jarvischu/article/details/8226938>
 
-#### 4.安装SU
+### 4.安装SU
 
 * 终端，进入src文件夹，执行命令：  
 ```Bash
@@ -82,13 +82,13 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 	$ make utils			（可安装）
 ```
 
-#### 5.测试安装，会出现一个图像
+### 5.测试安装，会出现一个图像
 
 ```Bash
 	$ suplane |  suxwigb &
 ```
 
-#### 6.常见问题：
+### 6.常见问题：
 
 * **Makefile:32 /src/Makefile.config: 没有那个文件或目录**  
 	应该是CWPROOT的设置wanting，注意使用绝对路径时的符号。  
