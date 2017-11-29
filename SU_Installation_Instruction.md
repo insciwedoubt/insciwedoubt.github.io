@@ -88,7 +88,7 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 	$ suplane |  suxwigb &
 ```
 
-### 6. 常见问题：
+### 6. 常见问题
 
 * **Makefile:32 /src/Makefile.config: 没有那个文件或目录**  
 	应该是CWPROOT的设置问题，注意使用绝对路径时的符号。  
