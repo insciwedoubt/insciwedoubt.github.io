@@ -20,7 +20,7 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 		$ tar -xvzf {压缩包名} -C {目标地址}
 ```
 
-* **解压完成后得到src文件夹。以下安装到目录`/home/user/su`下。**
+* **解压完成后得到src文件夹。以下安装到目录`/home/user/su`下。**  
 你可以将目录替换成你的安装目录，并注意将以下命令一并修改。
 
 ### 2. 设置环境变量
