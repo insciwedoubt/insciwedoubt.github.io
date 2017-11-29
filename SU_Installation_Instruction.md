@@ -2,13 +2,13 @@ SU安装教程
 ====
 1.下载安装包与准备安装
 ----
-*官网下载安装包  
+* 官网下载安装包  
 CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 
-*阅读Installation Instruction  
+* 阅读Installation Instruction  
 在安装包里有安装的教程。依照提示操作就可以安装。
 
-*解压到指定文件夹  
+* 解压到指定文件夹  
 常用命令：  
 	#移动压缩包到指定文件夹：  
 ```Bash
@@ -25,22 +25,22 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 
 2.设置环境变量
 ----
-*用户目录`/home/user`，用vim打开.bashrc文件：  
+* 用户目录`/home/user`，用vim打开.bashrc文件：  
 ```Bash
 	$ vim .bashrc
 ```
 
-*在底部加入代码：  
+* 在底部加入代码：  
 ```Bash
 	export CWPROOT=/home/{user}/{cwp_su}
 	export PATH=$PATH:/home/{user}/{cwp_su}/bin
 ```
-*保存，回到终端，确认更改：  
+* 保存，回到终端，确认更改：  
 ```Bash
 	$ source .bashrc
 ```
 
-*查看环境变量设置是否成功：  
+* 查看环境变量设置是否成功：  
 ```Bash
 	$ echo $CEPROOT
 	$ echo $PATH
@@ -48,7 +48,7 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 
 3.配置安装SU前置软件包
 ----
-*用户目录`/home/user`打开终端，输入命令：  
+* 用户目录`/home/user`打开终端，输入命令：  
 ```Bash
 	$ sudo apt install bulid-essential
 	$ sudo apt install libxt-dev
@@ -58,7 +58,7 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 	$ sudo apt install libxi-dev
 	$ sudo apt install gfortran
 ```
-*使用替代libglut3的软件包  
+* 使用替代libglut3的软件包  
 在Ubuntu 10.04版本以后，找不到软件包libglut3，使用freeglut3作为替代。  
 ```Bash
 	$ sudo apt-get install freeglut3-dev
@@ -70,14 +70,14 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 
 4.安装SU
 ----
-*终端，进入src文件夹，执行命令：  
+* 终端，进入src文件夹，执行命令：  
 ```Bash
 	$ make install
 	$ make xtinstall
 	$ make finstall
 	$ make mglinstall
 ```
-*可选项，可选择安装：  
+* 可选项，可选择安装：  
 ```Bash
 	$ make xminstall		（可安装）
 	$ make utils			（可安装）
@@ -85,7 +85,7 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 
 5.测试安装  
 ----
-*会出现一个图像：  
+* 会出现一个图像：  
 ```Bash
 	$ suplane |  suxwigb &
 ```
