@@ -1,8 +1,8 @@
 SU安装教程
 ====
 
-1.下载安装包与准备安装
-----
+#### 1.下载安装包与准备安装
+
 * 官网下载安装包  
 CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 
@@ -23,8 +23,7 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 
 * **解压完成后得到src文件夹，以下安装到目录`/home/user/su`下**
 
-
-2.设置环境变量
+#### 2.设置环境变量
 ----
 * 用户目录`/home/user`，用vim打开.bashrc文件：  
 ```Bash
