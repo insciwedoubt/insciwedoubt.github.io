@@ -24,7 +24,7 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 * **解压完成后得到src文件夹，以下安装到目录`/home/user/su`下**
 
 #### 2.设置环境变量
-----
+
 * 用户目录`/home/user`，用vim打开.bashrc文件：  
 ```Bash
 	$ vim .bashrc
@@ -46,14 +46,13 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 	$ echo $PATH
 ```
 
-3.配置安装SU前置软件包
-----
+#### 3.配置安装SU前置软件包
+
 * 用户目录`/home/user`打开终端，输入命令：  
 ```Bash
 	$ sudo apt install bulid-essential
 	$ sudo apt install libxt-dev
 	$ sudo apt install libx11-dev
-	**$ sudo apt install libglut3-dev**
 	$ sudo apt install libxmu-dev
 	$ sudo apt install libxi-dev
 	$ sudo apt install gfortran
@@ -63,13 +62,13 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 ```Bash
 	$ sudo apt-get install freeglut3-dev
 ```
+
 参考：
 1. <https://askubuntu.com/questions/332375/unable-to-locate-package-libglut3-dev>
 2. <http://blog.csdn.net/jarvischu/article/details/8226938>
 
+#### 4.安装SU
 
-4.安装SU
-----
 * 终端，进入src文件夹，执行命令：  
 ```Bash
 	$ make install
@@ -83,15 +82,14 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 	$ make utils			（可安装）
 ```
 
-5.测试安装  
-----
-* 会出现一个图像：  
+#### 5.测试安装，会出现一个图像
+
 ```Bash
 	$ suplane |  suxwigb &
 ```
 
-6.常见问题：
-----
+#### 6.常见问题：
+
 * **Makefile:32 /src/Makefile.config: 没有那个文件或目录**  
 	应该是CWPROOT的设置wanting，注意使用绝对路径时的符号。  
 	如果不是这个问题，也可以考虑重新解压缩。  
