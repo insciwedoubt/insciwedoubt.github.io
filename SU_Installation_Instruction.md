@@ -20,7 +20,7 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 		$ tar -xvzf {压缩包名} -C {目标地址}
 ```
 
-* **解压完成后得到src文件夹，以下安装到目录`/home/user/su`下**
+* **解压完成后得到src文件夹，以下安装到目录`/home/user/su`下**，你可以将目录替换成你的安装目录。
 
 ### 2. 设置环境变量
 
@@ -31,8 +31,8 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 
 * 在底部加入代码：  
 ```Bash
-	export CWPROOT=/home/{user}/{cwp_su}
-	export PATH=$PATH:/home/{user}/{cwp_su}/bin
+	export CWPROOT=/home/user/su
+	export PATH=$PATH:/home/user/su/bin
 ```
 * 保存，回到终端，确认更改：  
 ```Bash
@@ -59,20 +59,22 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 	$ sudo apt-get install freeglut3-dev
 ```
 * 使用替代libglut3的软件包。  
-	在Ubuntu 10.04版本以后，找不到软件包libglut3，使用freeglut3作为替代。  
-**参考：**  
+	在Ubuntu 10.04版本以后，找不到软件包libglut3，使用freeglut3作为替代。已在命令中替换。  
+
+**参考问题解决：**  
 	1. <https://askubuntu.com/questions/332375/unable-to-locate-package-libglut3-dev>
 	2. <http://blog.csdn.net/jarvischu/article/details/8226938>
 
 ### 4. 安装SU
 
-* 终端，进入src文件夹，执行命令：  
+* 终端，进入`/home/user/su/src`文件夹，执行命令：  
 ```Bash
 	$ make install
 	$ make xtinstall
 	$ make finstall
 	$ make mglinstall
 ```
+
 * 可选项，可选择安装：  
 ```Bash
 	$ make xminstall		（可安装）
