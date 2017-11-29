@@ -10,11 +10,11 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 在安装包里有安装的教程。依照提示操作就可以安装。
 
 * 解压到指定文件夹  
-	**移动压缩包到指定文件夹：**  
+	*移动压缩包到指定文件夹：*  
 ```Bash
 		$ mv {原目录}/{压缩包名} {新目录}
-```
-	**解压缩：**  
+```  
+	*解压缩：*  
 ```Bash
 		$ tar -xvzf {压缩包名}
 		$ tar -xvzf {压缩包名} -C {目标地址}
@@ -79,8 +79,8 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 	$ make utils			（可安装）
 ```
 
-### 5. 测试安装，会出现一个图像
-
+### 5. 测试安装
+会出现一个图像  
 ```Bash
 	$ suplane |  suxwigb &
 ```
