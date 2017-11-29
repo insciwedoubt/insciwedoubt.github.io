@@ -9,12 +9,12 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 * 阅读Installation Instruction  
 在安装包里有安装的教程。依照提示操作就可以安装。
 
-* 解压到指定文件夹  
-	*移动压缩包到指定文件夹：*  
+* 移动压缩包到指定文件夹
 ```Bash
 		$ mv {原目录}/{压缩包名} {新目录}
-```  
-	*解压缩：*  
+```
+
+* 解压缩：
 ```Bash
 		$ tar -xvzf {压缩包名}
 		$ tar -xvzf {压缩包名} -C {目标地址}
@@ -59,7 +59,7 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 	$ sudo apt-get install freeglut3-dev
 ```
 * 使用替代libglut3的软件包。  
-	在Ubuntu 10.04版本以后，找不到软件包libglut3，使用freeglut3作为替代。
+	在Ubuntu 10.04版本以后，找不到软件包libglut3，使用freeglut3作为替代。  
 **参考：**  
 	1. <https://askubuntu.com/questions/332375/unable-to-locate-package-libglut3-dev>
 	2. <http://blog.csdn.net/jarvischu/article/details/8226938>
@@ -99,7 +99,8 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 	最新版本中无此类问题。出现问题可查看参考教程链接。 
 
 * **文件夹权限不够**  
-	提高文件夹权限，777是最高权限。不过过高权限会有一定风险。  
+	提高文件夹权限，777是最高权限。不过过高权限会有一定风险。  
+	命令如下：  	
 ```Bash
 	$ sudo chmod 777 /home/user/su
 ```
