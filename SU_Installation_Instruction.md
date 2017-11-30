@@ -57,10 +57,10 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 	$ sudo apt install libxi-dev
 	$ sudo apt install gfortran
 	
-	$ sudo apt-get install freeglut3-dev
+	$ sudo apt install freeglut3-dev
 ```
 * 使用替代libglut3的软件包。  
-	在Ubuntu 10.04版本以后，找不到软件包libglut3，使用freeglut3作为替代。已在命令中替换。  
+	在Ubuntu 10.04版本以后，找不到软件包libglut3，使用freeglut3作为替代。已在上方命令中替换。  
 
 **参考问题解决：**  
 	1. <https://askubuntu.com/questions/332375/unable-to-locate-package-libglut3-dev>  
