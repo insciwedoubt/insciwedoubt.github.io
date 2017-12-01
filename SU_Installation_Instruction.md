@@ -42,7 +42,7 @@ CWP官网：<http://www.cwp.mines.edu/cwpcodes/index.html>
 
 * 查看环境变量设置是否成功：  
 ```Bash
-	$ echo $CEPROOT
+	$ echo $CWPROOT
 	$ echo $PATH
 ```
 
